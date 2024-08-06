@@ -58,6 +58,8 @@ function create() {
     createFloorPiece.call(this, 595);
     createFloorPiece.call(this, 700);
     createFloorPiece.call(this, 860);
+    createFloorPiece.call(this, 960);
+    createFloorPiece.call(this,1140);
 
     // Crear bloques y tuberías
     this.blocks = this.block.create(100, 155, 'mistery');
@@ -71,6 +73,17 @@ function create() {
     this.pipe.create(420, 188, 'pipe2');
     this.pipe.create(570, 181, 'pipe3');
     this.pipe.create(720, 181, 'pipe3');
+    this.block.create(975, 155, 'block');
+    this.block.create(990, 155, 'mistery');
+    this.block.create(1006, 155, 'block');
+    this.block.create(1021, 110, 'block');
+    this.block.create(1037, 110, 'block');
+    this.block.create(1053, 110, 'block');
+    this.block.create(1069, 110, 'block');
+    this.block.create(1083, 110, 'block');
+    this.block.create(1141, 110, 'block');
+    this.block.create(10153, 110, 'block');
+    this.block.create(10165, 110, 'block');
 
     // Crear Goomba
     this.velocitys = -25;
